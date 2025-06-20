@@ -7,7 +7,6 @@ class Tienda: #creacion de una clase
         self.inventario.append(Producto("leche", 20, 4000))
         self.inventario.append(Producto("pan", 30, 2000))
         self.inventario.append(Producto("huevos", 40, 700))
-        
     def agregar(self, producto):
         #la funcion isinstance(objeto, clase a comparar): sirve para saber que lo que se va a trabajar si es de la clase 
         #que necesitamos
